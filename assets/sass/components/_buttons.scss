@@ -1,0 +1,27 @@
+.button {
+  margin: 2%;
+  padding: 2%;
+  width: 100%;
+  font-weight: $raleway;
+  font-family: $bold;
+
+  &__2 {
+    background-color: $ball-blue;
+    color: $white;
+  }
+
+  &__2:hover {
+    background-color: $middle-blue;
+    color: $white;
+  }
+
+  &__2:focus {
+    background-color: $lavender-gray;
+    color: $white;
+  }
+
+  &__1 {
+    background-color: $white;
+    color: $nickel;
+  }
+}
